@@ -1,0 +1,466 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+/* header section */
+
+.container{
+	width: 1140px;
+	margin: 0 auto;
+}
+
+.logo{
+    height: 120px;
+    width: 17%;
+    float: left;
+}
+
+.logo img {
+    width: 150px;
+    margin: 25px 10px;
+}
+
+.menu{
+	height: 120px;
+	width: 53%;
+	float: left;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 65px 30px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+}
+
+.social-icon{
+	height: 120px;
+	width: 30%;
+	float: left;
+}
+
+.social-icon ul{
+	list-style: none;
+}
+
+.social-icon ul li{
+	
+	display: inline-block;
+	margin: 63px 10px;
+}
+
+.social-icon ul li a {
+    text-decoration: none;
+    color: maroon;
+}
+
+.fa.fa-facebook{
+	background-color: #395498;
+	color: white;
+	padding: 2px 6px;
+}
+
+.fa.fa-twitter{
+	background-color: #2BA5DA;
+	color: white;
+	padding: 2px 6px;
+}
+
+.fa.fa-linkedin{
+	background-color: #0073B1;
+	color: white;
+	padding: 2px 6px;
+}
+
+.fa.fa-google-plus{
+	background-color: #CD4539;
+	color: white;
+	padding: 2px 6px;
+}
+
+
+/* banner section */
+
+.banner{
+    width: 100%;
+    float: left;
+}
+
+.banner-img{
+	height: 400px;
+	background-image: url(../img/pex.jpg);
+}
+
+.banner-content {
+    height: 400px;
+    background: #faebd7b5;
+    display: block;
+    margin: 0px 320px 0px 320px;
+}
+
+.banner-content h2 {
+    text-transform: uppercase;
+    position: relative;
+    left: 0px;
+    top: 40px;
+    font-size: 30px;
+    margin: 0px 195px;
+}
+
+.banner-content p{
+	text-align: center;
+	position: relative;
+    top: 45px;
+}
+
+.banner-content button{
+	background-color: #00ce00;
+    color: white;
+    border: none;
+    padding: 5px;
+    margin: 2px;
+    text-transform: uppercase;
+    position: relative;
+    left:200px; top:75px;
+}
+
+
+
+/* gallery section */
+
+.gallery{
+	width: 100%;
+	float: left;
+
+}
+
+.gallery-one{
+	height: 300px;
+	width: 25%;
+	float: left;
+}
+
+.gallery-one a {
+    background-color: #5568CA;
+    color: white;
+    margin: 0px 90px;
+    padding: 10px 15px;
+    border-radius: 50%;
+    font-size: 50px;
+}
+
+.gallery-one p {
+    text-align: start;
+    padding: 20px;
+}
+
+.gallery-one button {
+    background-color: #00ce00;
+    color: white;
+    margin: 10px 90px;
+    border: none;
+    padding: 5px;
+    text-transform: uppercase;
+}
+
+
+.gallery-two{
+	height: 300px;
+	width: 25%;
+	float: left;
+}
+
+.gallery-two a{
+	background-color: #018E7E;
+	color: white;
+    margin: 0px 90px;
+    padding: 10px 25px;
+    border-radius: 50%;
+    font-size: 50px;
+}
+
+.gallery-two p {
+    text-align: start;
+    padding: 20px;
+}
+
+.gallery-two button {
+    background-color: #00ce00;
+    color: white;
+    margin: 10px 90px;
+    border: none;
+    padding: 5px;
+    text-transform: uppercase;
+}
+
+.gallery-three{
+	height: 300px;
+	width: 25%;
+	float: left;
+}
+
+.gallery-three a{
+	background-color: #5EAA5E;
+	color: white;
+    margin: 0px 90px;
+    padding: 10px 15px;
+    border-radius: 50%;
+    font-size: 50px;
+}
+
+.gallery-three p {
+    text-align: start;
+    padding: 20px;
+}
+
+.gallery-three button {
+    background-color: #00ce00;
+    color: white;
+    margin: 10px 90px;
+    border: none;
+    padding: 5px;
+    text-transform: uppercase;
+}
+
+.gallery-four{
+	height: 300px;
+	width: 25%;
+	float: left;
+}
+
+.gallery-four a{
+	background-color: #9AE56F;
+	color: white;
+	margin: 0px 90px;
+	padding: 10px 10px;
+	border-radius: 50%;
+	font-size: 50px;
+}
+
+.gallery-four p {
+    text-align: start;
+    padding: 20px;
+}
+
+.gallery-four button {
+    background-color: #00ce00;
+    color: white;
+    margin: 10px 90px;
+    border: none;
+    padding: 5px;
+    text-transform: uppercase;
+}
+
+/* portfolio */
+
+.portfolio{
+	width: 100%;
+	float: left;
+
+}
+
+.portfolio-one{
+	background: #abd1ae;
+	height: 400px;
+	float: left;
+
+}
+
+.portfolio-one h2 {
+    text-align: center;
+    padding: 50px 0px;
+}
+
+.portfolio-one ul {
+    list-style: circle;
+}
+
+.portfolio-one ul {
+    list-style: circle;
+    padding: 0px 150px;
+}
+
+.portfolio-one button {
+    background-color: #00ce00;
+    color: white;
+    margin: 10px 135px;
+    border: none;
+    padding: 5px;
+    text-transform: uppercase;
+}
+
+
+.portfolio-two{
+	background: #abd1ae;
+	height: 400px;
+	float: right;
+}
+
+.portfolio-two h2 {
+    text-align: center;
+    padding: 50px 0px;
+}
+
+.portfolio-two ul {
+    list-style: circle;
+}
+
+.portfolio-two ul {
+    list-style: circle;
+    padding: 0px 150px;
+}
+
+.portfolio-two button {
+    background-color: #00ce00;
+    color: white;
+    margin: 10px 135px;
+    border: none;
+    padding: 5px;
+    text-transform: uppercase;
+}
+
+/* blog */
+
+
+h2 {
+    text-align: center;
+    padding: 30px;
+}
+
+.blog{
+	width: 100%;
+	float: left;
+}
+
+.blog-one{
+	height: 250px;
+	width: 50%;
+	float: left;
+}
+
+.blog-one h3{
+	text-align: start;
+	padding: 25px 30px;
+}
+
+.blog-one p {
+    text-align: start;
+    padding: 0px 25px;
+}
+
+.blog-one button {
+    background-color: #00ce00;
+    color: white;
+    margin: 10px 90px;
+    border: none;
+    padding: 5px;
+    text-transform: uppercase;
+}
+
+
+.blog-two{
+	height: 250px;
+	width: 50%;
+	float: left;
+}
+
+.blog-two h3{
+	text-align: start;
+	padding: 25px 30px;
+}
+
+.blog-two p {
+    text-align: start;
+    padding: 22px 25px;
+}
+
+.blog-two button {
+    background-color: #00ce00;
+    color: white;
+    margin: 10px 90px;
+    border: none;
+    padding: 5px;
+    text-transform: uppercase;
+}
+
+/* Concluding */
+
+section.Information {
+    background: #DCDCDC;
+    height: 200px;
+    width: 100%;
+    float: left;
+}
+
+section.Information p {
+    text-align: center;
+    padding: 38px;
+}
+
+section.Rating {
+    height: 150px;
+    width: 100%;
+    float: left;
+}
+
+div#tp-widget-logo {
+    width: 150px;
+    margin: 0px 580px;
+}
+
+div#tp-widget-stars {
+    width: 150px;
+    margin: 10px 585px;
+}
+
+section.Rating p{
+	text-align: center;
+}
+
+section.Mention {
+    background: #DCDCDC;
+    height: 200px;
+    width: 100%;
+    float: left;
+}
+
+section.Mention h2 {
+    color: black;
+    text-align: center;
+    padding: 20px;
+}
+
+section.Mention img {
+    width: 150px;
+    margin: 0px 590px;
+}
+
+
+
+footer{
+	background: #062E3A;
+	height: 100px;
+	width: 100%;
+	float: left;
+}
+
+.footer-one {
+    color: white;
+    float: left;
+    margin: 25px 230px;
+}
+
+.footer-two {
+    color: white;
+    float: left;
+    margin: 25px 140px;
+}
